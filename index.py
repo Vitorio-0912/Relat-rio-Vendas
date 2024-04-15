@@ -34,7 +34,7 @@ mail.HTMLBody = f'''
 
 <p>Segue o Relatório de Vendas por cada Loja.</p>
 
-<p>Faruramento:</p>
+<p>Faturamento:</p>
 {faturamento.to_html(formatters={'Valor Final': 'R${:.2f}'.format})} 
 
 <p>Quantidade Vendida:</p>
